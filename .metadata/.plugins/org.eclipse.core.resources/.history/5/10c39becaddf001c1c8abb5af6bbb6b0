@@ -1,0 +1,5 @@
+package desafio.dio.gtf5.labpadroesprojetospring.model;
+
+public class ClienteRepository {
+
+}

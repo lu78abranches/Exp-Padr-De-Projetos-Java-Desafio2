@@ -1,0 +1,7 @@
+package desafio.dio.gtf5.labpadroesprojetospring.model;
+
+import org.springframework.data.repository.CrudRepository;
+
+
+public interface ClienteRepository extends CrudRepository<Cliente, Long> {
+}

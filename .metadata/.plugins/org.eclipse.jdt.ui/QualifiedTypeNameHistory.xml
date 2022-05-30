@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="dio.desafio.finall.SingletonLazy"/>
+    <fullyQualifiedTypeName name="dio.desafio.finall.strategy.Comportamento"/>
+    <fullyQualifiedTypeName name="dio.desafio.finall.strategy.ComportamentoNormal"/>
+    <fullyQualifiedTypeName name="dio.desafio.finall.strategy.ComportamentoDefensivo"/>
+    <fullyQualifiedTypeName name="dio.desafio.finall.strategy.ComportamentoAgressivo"/>
+    <fullyQualifiedTypeName name="dio.desafio.finall.strategy.Robo"/>
+    <fullyQualifiedTypeName name="subsistema.crm.CrmService"/>
+    <fullyQualifiedTypeName name="subsistema2.cep.CepApi"/>
+    <fullyQualifiedTypeName name="dio.desafio.finall.facade.Facade"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+    <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
+    <fullyQualifiedTypeName name="org.springframework.cloud.openfeign.FeignClient"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.http.ResponseEntity"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.DeleteMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
+    <fullyQualifiedTypeName name="io.swagger.v3.oas.annotations.parameters.RequestBody"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="desafio.dio.gtf5.labpadroesprojetospring.service.ClienteService"/>
+    <fullyQualifiedTypeName name="desafio.dio.gtf5.labpadroesprojetospring.model.Cliente"/>
+    <fullyQualifiedTypeName name="desafio.dio.gtf5.labpadroesprojetospring.model.ClienteRepository"/>
+    <fullyQualifiedTypeName name="desafio.dio.gtf5.labpadroesprojetospring.model.EnderecoRepository"/>
+    <fullyQualifiedTypeName name="desafio.dio.gtf5.labpadroesprojetospring.service.ViaCepService"/>
+    <fullyQualifiedTypeName name="desafio.dio.gtf5.labpadroesprojetospring.model.Endereco"/>
+</qualifiedTypeNameHistroy>
