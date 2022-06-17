@@ -8,8 +8,18 @@ import javax.persistence.ManyToOne;
 
 @Entity
 public class Cliente {
+	
+	
 
-    @Id
+    public Cliente(Long id, String nome, Endereco endereco) {
+		super();
+		this.id = id;
+		this.nome = nome;
+		this.endereco = endereco;
+		
+	}
+
+	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nome;
@@ -39,6 +49,16 @@ public class Cliente {
 
     public void setEndereco(Endereco endereco) {
         this.endereco = endereco;
+    }
+    
+    @Override
+    public String toString() {
+    	
+    	return "ID: " + this.id + System.lineSeparator() + "Nome: " + this.nome + System.lineSeparator() +
+    			"Endereço: " + System.lineSeparator() + "Rua " + this.endereco.getLogradouro() +
+    			System.lineSeparator() + "Complemento: " + this.endereco.getComplemento() + System.lineSeparator() +
+    			"Bairro: " + this.endereco.getBairro() + System.lineSeparator() + "Cidade: " + this.endereco.getLocalidade()
+    			+ System.lineSeparator() + "Estado: " + this.endereco.getUf();
     }
 
 	

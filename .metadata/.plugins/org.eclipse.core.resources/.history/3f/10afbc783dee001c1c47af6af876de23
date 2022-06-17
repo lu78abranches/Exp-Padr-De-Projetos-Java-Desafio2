@@ -1,0 +1,25 @@
+package desafio.dio.gtf5.labpadroesprojetospring.model;
+
+
+public class NovoCliente {
+
+		
+		Endereco enderecoCliente1 = new Endereco("02455010", "Rua Goias, 23", 
+				"Ap 123", "Salvação", "São Paulo", "SP" );
+		
+		static Cliente cliente1 = new Cliente((long) 55, "Carlos Roberto", enderecoCliente1);
+		
+		Endereco enderecoCliente2 = new Endereco("15698254", "Rua da Bica, 55", "Ap 234",
+				"Jd.Primavera", "São Vicente", "SP");
+		
+		Cliente cliente2 = new Cliente((long) 12432, "João Cabuloso", enderecoCliente2);
+		
+		Endereco enderecoCliente3 = new Endereco("25897845", "Rua da Varzea, 35", "Ap 985",
+				"Jd.Conceição", "Belo Horizonte", "MG");
+		
+		Cliente cliente3 = new Cliente((long) 12432, "Ana Nascimento", enderecoCliente3);
+		
+		
+	
+
+}

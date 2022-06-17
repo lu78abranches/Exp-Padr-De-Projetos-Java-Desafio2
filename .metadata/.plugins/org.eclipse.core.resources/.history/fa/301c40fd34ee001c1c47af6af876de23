@@ -1,0 +1,13 @@
+package desafio.dio.gtf5.labpadroesprojetospring.model;
+
+public class NovoCliente {
+
+	public static void main(String[] args) {
+		
+		
+		
+		Cliente novoCliente = new Cl
+		
+	}
+
+}

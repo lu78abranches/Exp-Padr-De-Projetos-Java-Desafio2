@@ -1,0 +1,16 @@
+package desafio.dio.gtf5.labpadroesprojetospring.model;
+
+
+import java.util.ArrayList;
+
+public class ClienteLista extends NovoCliente {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Cliente> listaClientes = new ArrayList<Cliente>();
+		
+		listaClientes.add(cliente1);
+
+	}
+
+}
